@@ -18,10 +18,10 @@ const datafromjson = (res, type) => {
 
 const server = http.createServer((req, res) => {
     if (req.url === "/home" && req.method === "GET") {
-        res.end("Welcome This is Home Page");
+        res.end("Welcome This is Home Page 🏠🏠");
     } 
     else if (req.url === "/about" && req.method === "GET") {
-        res.end("This is About Page");
+        res.end("This is About Page ✋✋");
     } 
     else if (req.url === "/getproductdata" && req.method === "GET") {
         datafromjson(res, 'products');
