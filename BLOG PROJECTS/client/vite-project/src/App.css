@@ -1,0 +1,252 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 60px;
+  padding: 0px 0px;
+  background-color: #333333; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px; 
+  text-align: center;
+  margin: 0px 20px 0px 0px;
+  padding: 0;
+}
+
+
+.nav-item {
+  text-decoration: none;
+  color: #bbbbbb; 
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  position: relative;
+}
+
+.nav-item:hover {
+  color: #ffffff; 
+  transform: scale(1.1); 
+}
+
+.nav-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0px;
+  background-color: #007BFF; 
+  transition: width 0.3s ease;
+}
+
+.nav-item:hover::before {
+  width: 100%;
+}
+
+.active {
+  color: #ffffff; 
+}
+/* Home container */
+.home-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f4f6f9; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome heading */
+.welcome-heading {
+  font-size: 32px;
+  color: #333333; /* Dark gray text */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Main welcome message */
+.welcome-message {
+  font-size: 18px;
+  color: #555555; /* Light gray text */
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Image container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* GIF styling */
+.welcome-gif {
+  width: 300px; /* Adjust size as needed */
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Home container */
+.home-container {
+  text-align: center;
+  padding: 40px;
+  background-color: #f4f6f9; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome heading */
+.welcome-heading {
+  font-size: 36px;
+  color: #333333; /* Dark gray text */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Main welcome message */
+.welcome-message {
+  font-size: 18px;
+  color: #555555; /* Light gray text */
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Image container */
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.welcome-gif {
+  width: 350px; 
+  height: auto;
+  border-radius: 8px;
+}
+.about-container h1{
+  font-size: 1.9rem;
+  color: #333333; 
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about-container .Para{
+  text-align: center;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 25px;
+  border-radius: 6px;
+  text-align: left;
+}
+
+
+h2 {
+  font-size: 1.4rem;
+  color: #2b2a2a;
+  margin-top: 25px;
+}
+
+p {
+  font-size: 1rem;
+  color: #555; 
+  line-height: 1.6;
+}
+
+.features p {
+  font-size: 1rem;
+  color: #494747; 
+  margin: 8px 0;
+}
+
+.technologies p {
+  font-size: 1rem;
+  color: #353333;
+}
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  color: #292727;
+  margin: 5px 0 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Assuming this is in a separate CSS file, e.g., styles.css */
+li {
+  list-style: none;
+  display: inline-block; /* Align items horizontally */
+  font-size: 16px;
+}
+
+li button {
+  padding: 4px 10px;
+  font-size: 15px; 
+  background-color: #007bff; 
+  color: white; 
+  border: none; 
+  border-radius: 4px; 
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #0056b3; 
+}
+.Username{
+  color: rgb(254, 227, 227);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
